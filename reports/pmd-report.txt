@@ -1,0 +1,48 @@
+src/main/java/wdf/sap/corp/DemoProject/App.java:1:	Package name contains upper case characters
+src/main/java/wdf/sap/corp/DemoProject/App.java:10:	Avoid short class names like App
+src/main/java/wdf/sap/corp/DemoProject/App.java:12:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/wdf/sap/corp/DemoProject/App.java:12:	Parameter 'args' is not assigned and could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:12:	publicMethodCommentRequirement Required
+src/main/java/wdf/sap/corp/DemoProject/App.java:14:	System.out.println is used
+src/main/java/wdf/sap/corp/DemoProject/App.java:18:	Method names should not start with capital letters
+src/main/java/wdf/sap/corp/DemoProject/App.java:18:	publicMethodCommentRequirement Required
+src/main/java/wdf/sap/corp/DemoProject/App.java:20:	System.out.println is used
+src/main/java/wdf/sap/corp/DemoProject/App.java:21:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/wdf/sap/corp/DemoProject/App.java:22:	System.out.println is used
+src/main/java/wdf/sap/corp/DemoProject/App.java:24:	Avoid returning from a finally block
+src/main/java/wdf/sap/corp/DemoProject/App.java:28:	Method names should not start with capital letters
+src/main/java/wdf/sap/corp/DemoProject/App.java:28:	publicMethodCommentRequirement Required
+src/main/java/wdf/sap/corp/DemoProject/App.java:29:	Avoid variables with short names like a
+src/main/java/wdf/sap/corp/DemoProject/App.java:29:	Local variable 'a' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:29:	Local variable 'baz' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:29:	Use one line for each declaration, it enhances code readability.
+src/main/java/wdf/sap/corp/DemoProject/App.java:30:	Avoid empty if statements
+src/main/java/wdf/sap/corp/DemoProject/App.java:30:	Avoid empty if statements
+src/main/java/wdf/sap/corp/DemoProject/App.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/wdf/sap/corp/DemoProject/App.java:30:	The null check here is misplaced; if the variable is null there will be a NullPointerException
+src/main/java/wdf/sap/corp/DemoProject/App.java:33:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/java/wdf/sap/corp/DemoProject/App.java:33:	Method names should not start with capital letters
+src/main/java/wdf/sap/corp/DemoProject/App.java:33:	publicMethodCommentRequirement Required
+src/main/java/wdf/sap/corp/DemoProject/App.java:35:	Avoid variables with short names like a
+src/main/java/wdf/sap/corp/DemoProject/App.java:35:	Avoid variables with short names like b
+src/main/java/wdf/sap/corp/DemoProject/App.java:35:	Local variable 'a' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:35:	Local variable 'b' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:35:	Use one line for each declaration, it enhances code readability.
+src/main/java/wdf/sap/corp/DemoProject/App.java:36:	Avoid empty if statements
+src/main/java/wdf/sap/corp/DemoProject/App.java:36:	Avoid empty if statements
+src/main/java/wdf/sap/corp/DemoProject/App.java:36:	Use equals() to compare object references.
+src/main/java/wdf/sap/corp/DemoProject/App.java:37:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/wdf/sap/corp/DemoProject/App.java:38:	System.out.println is used
+src/main/java/wdf/sap/corp/DemoProject/App.java:43:	Method names should not start with capital letters
+src/main/java/wdf/sap/corp/DemoProject/App.java:43:	publicMethodCommentRequirement Required
+src/main/java/wdf/sap/corp/DemoProject/App.java:44:	Avoid variables with short names like c
+src/main/java/wdf/sap/corp/DemoProject/App.java:44:	Local variable 'c' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:45:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/main/java/wdf/sap/corp/DemoProject/App.java:45:	Local variable 'obj' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:49:	Avoid variables with short names like a
+src/main/java/wdf/sap/corp/DemoProject/App.java:49:	Found 'DU'-anomaly for variable 'a' (lines '49'-'53').
+src/main/java/wdf/sap/corp/DemoProject/App.java:49:	Local variable 'a' could be declared final
+src/main/java/wdf/sap/corp/DemoProject/App.java:49:	This usage of the Collection.toArray() method will throw a ClassCastException.
+src/main/java/wdf/sap/corp/DemoProject/App.java:52:	Avoid variables with short names like b
+src/main/java/wdf/sap/corp/DemoProject/App.java:52:	Found 'DU'-anomaly for variable 'b' (lines '52'-'53').
+src/main/java/wdf/sap/corp/DemoProject/App.java:52:	Local variable 'b' could be declared final
